@@ -49,12 +49,12 @@ This project provides an API that allows users to get a list of schools sorted b
    - The API will be running on `http://localhost:5050`.
    - You can now call the API with latitude and longitude to get the sorted list of schools:
      ```bash
-     GET http://localhost:3000/schools/:latitude/:longitude
+     GET http://localhost:3000/schools/listSchool/:latitude/:longitude
      ```
 
 ## API Endpoints
 
-### `GET /schools/:latitude/:longitude`
+### `GET /schools/listSchool/:latitude/:longitude`
 - **Description**: Returns a list of schools sorted by distance from the provided latitude and longitude.
 - **Parameters**:
   - `latitude` (required): The latitude of the user.
